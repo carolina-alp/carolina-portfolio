@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Carolina Portfolio.</title>
+  <meta name="title" content="Carolina - I'm an Hidrologist">
+  <meta name="description" content="This is a personal portfolio html template made by CAL">
+
+  <!-- 
+    - CAL
+  -->
+  <link rel="shortcut icon" href="./cal.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/blob.svg">
+
+</head>
+
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/carolina_head_v2.png" width="150" height="50" alt="Carolina home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/carolina_nav.png" width="200" height="24" alt="Carolina home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:caldunate.lp@gmail.com" class="contact-link">caldunate.lp@gmail.com</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.linkedin.com/in/caldunatelipa/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/carolina-alp" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-mastodon"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home">
+
+        <figure class="about-banner">
+          <img src="./assets/images/header-carolina.jpg" alt="CAL"
+            width="350" 
+            height="350">
+
+        </figure>
+
+        <div class="hero-content">
+
+          <h2 class="h2 hero-title">Carolina Aldunate Lipa</h2>
+
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+
+        </div>
+
+        <ul class="hero-social-list">
+
+          <li>
+            <a href="#" class="hero-social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+
+              <div class="tooltip">Facebook</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="hero-social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+
+              <div class="tooltip">Twitter</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="hero-social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+
+              <div class="tooltip">Linkedin</div>
+            </a>
+          </li>
+
+        </ul>
+
+        <a href="#stats" class="scroll-down">Scroll</a>
+
+      </section>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <div class="wrapper">
+
+            <div data-reveal="left">
+              <h2 class="h2 section-title">About me</h2>
+
+              <p class="section-text">
+                I'm a Civil Engineer graduated from <span class="note"><a href="https://www.umss.edu.bo"> Universidad Mayor de San Simón.</a> </span>
+                During my studies I worked as a research assistant in the <span class="note"><a href="https://www.lh.umss.edu.bo/?fbclid=IwAR2HYaBu28WQ9blG9mYTRw9O33GTD9c02rxu_W-AmNq3wNzdxC9LjB3e5lg">Hydraulics Laboratory</a> </span>
+                of the Universidad Mayor de San Simón.
+              </p>
+              <br>
+              <p class="section-text">
+              With a background in hydrology and climate-related research, I am currently working as a water resources consultant. My expertise includes hydrological modeling, reservoir simulation, 
+              downscaling of climate change data from global/regional climate models, and comprehensive data analysis of hydroclimatological information.
+              </p>
+              <br>
+              <p class="section-text">
+                As a self-taught Python programmer, I have created scripts that automate tasks to fulfill my professional responsibilities.
+                I am committed to fostering collaboration through open-source contributions on GitHub. 
+                Recently, I've just finished a post-graduate course in Machine Learning Cloud at <span class="note"><a href="https://cba.ucb.edu.bo/"> Universidad Católica Boliviana.</a> </span>
+              </p>
+              <br>
+              <p class="section-text">
+                Last but not least, I actively participate in various volunteer programs, such as: 
+                <span class="note"><a href="https://neuromatch.io/climate-science/"> Climatematch</a> </span>, and
+                <span class="note"><a href="https://www.unv.org/es/hazte-voluntario"> ONU Volunteers</a> </span>.                
+                These experiences not only refine my personal skills, 
+                but also serve as a platform for expanding my professional network, reinforcing my commitment to making meaningful contributions in both my career and the broader community.
+              </p>              
+
+
+              </p>
+            </div>
+
+            <ul class="grid-list-skills">
+
+              <li data-reveal="bottom" data-reveal-delay="0.25s">
+                <div class="about-skills">
+  
+                  <h3 class="h4 card-title">Competencies and Skills</h3>
+                  <hr>
+                  <p class="section-text">
+                    <br>
+                    <p class="section-text2">
+                      <span class="note">• Hydrology/Hydraulics Modeling : </span> HydroBID, WEAP, SWAT, HEC-RAS
+                    </p>  
+                    <p class="section-text2">
+                    <span class="note">• GIS software : </span> ArcGIS, QGIS, R and Google Earth Engine 
+                    </p>
+                    <p class="section-text2">
+                      <span class="note">• Computer programming: </span> Python and R
+                    </p>
+                    <p class="section-text2">
+                      <span class="note">• Cloud Computing: </span> Azure Machine Learning.
+                    </p>
+                    <p class="section-text2">
+                      <span class="note">• Data Science: </span> Data Management, Data Mining, & Data Visualization.
+                    </p>
+                    <p class="section-text2">
+                      <span class="note">• Development Tools: </span> VisualStudio, RStudio, Spyder, GoogleColab.
+                    </p>
+                    <p class="section-text2">
+                      <span class="note">• Web Development : </span> Basic HTML, CSS and Javascript background.
+                    </p>
+                    <p class="section-text2">
+                      <span class="note">• Control Version : </span> Git and GitHub.
+                    </p>                   
+                    <p class="section-text2">
+                      <span class="note">• Microsoft Office : </span> Word, Excel and PowerPoint.
+                    </p>
+                    <p class="section-text2">
+                      <span class="note">• Language : </span> Spanish and English.
+                    </p>                    
+                    <p class="section-text2">
+                      <span class="note">• Others : </span> Discord and Slack.
+                    </p>    
+                 
+                  </p>
+  
+                </div>
+              </li>
+            </ul>
+          </div>
+
+
+        <section class="section-services" id="services"> 
+
+          <h2 class="h2 section-title" style="text-align: center;"> Services</h2>
+
+          <br><br>
+          <br>
+
+          <ul class="grid-list">
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.svg" width="60" height="60" loading="lazy" alt="web design icon">
+                </div>
+
+                <h3 class="h4 card-title">Climate Change</h3>
+
+                <p class="card-text">
+                  Assessment of climate Change using Statistical Downscaling methods to climate models using scenarios RCP and SSP.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.svg" width="60" height="60" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">Modelling</h3>
+
+                <p class="card-text">
+                  Hydrology/Hydraulics Modeling using HydroBID, WEAP, SWAT, HEC-RAS. Reservoir water balance simulation.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-3.svg" width="65" height="65" loading="lazy"
+                    alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">Development</h3>
+
+                <p class="card-text">
+                  Development of automated workflows. Data Management, Data Mining, and Data Visualization.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-4.svg" width="65" height="60" loading="lazy" alt="web seo icon">
+                </div>
+
+                <h3 class="h4 card-title">Volunteer</h3>
+
+                <p class="card-text">
+                  Geolatina Member.<br>  Volunteered at Climatematch Academy. Volunteered at ONU Volunteers. Ex-Scout 
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+          </div>
+        </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section projects" id="projects">
+
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">Projects</h2>
+            </div>
+            <br>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              
+                  <a href="./project-pages/academic-projects.html" class="btn-text" style="color: #a07cc5">
+
+                    <div class="project-card project-card-1" style="background-color: #f8f5fb">
+                    <div class="card-content" data-reveal="left">
+                      <p class="card-tag" style="color: #a07cc5">ACADEMIC PROJECTS</p>   
+                      <br>
+                      <img src="./assets/images/project_a.svg" width=80% loading="lazy" alt="Web Design">              
+                     </div>  
+
+                    </div>
+                  </a>
+            </li>
+
+            <li>
+                <a href="./project-pages/professional-projects.html" class="btn-text" style="color: #3f78e0">
+                    <div class="project-card project-card-2" style="background-color: #f1f5fd">
+                    <div class="card-content" data-reveal="right">
+
+                    <p class="card-tag" style="color: #648edb"><b>Professional Projects</b></p>
+    
+                  <figure class="card-banner" data-reveal="left">
+                        <img src="./assets/images/project_b.svg" width=90% loading="lazy" alt="">
+                  </figure>
+
+                  </div>
+                </div>
+             </a>              
+            </li>
+
+            <li>
+              <div class="project-card project-card-3" style="background-color: #f5faf7">
+
+                <a href="./project-pages/personal-projects.html" class="btn-text" style="color: #7cb798">
+                    <div class="card-content" data-reveal="left">
+                    <p class="card-tag" style="color: #7cb798">Personal Projects</p>
+                      <figure class="card-banner" data-reveal="left">
+                        <img src="./assets/images/project_c.svg" width=90% loading="lazy" alt="">
+                      </figure>
+                  </div>
+
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section-contact" id="contact" class="bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2 text-center"></div>
+            <div class="col-lg-8 text-center">
+              <br><br><br>
+              <h2 class="section-heading text-uppercase" style="text-align: center;">Contact</h2>
+              <br>
+
+              <il class="section-text3" style="text-align: center;">
+                Feel free to contact me for any question. For open source projects, please open an issue or pull request on
+                  <span class="note"><a href="https://github.com/carolina-alp">Github</a> </span>.
+                  If you want to follow my work, reach me on <span class="note"><a href="https://www.linkedin.com/in/caldunatelipa/">Linkedin</a></span>. 
+                  Otherwise, send me an email at <span class="note"><a href="mailto:caldunate.lp@gmail.com">caldunate.lp@gmail.com</a> </span>.
+              </il>
+              <br>
+              <div class="social-list" style="text-align: center;">
+                <li>
+                  <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://github.com/carolina-alp">Github</a>
+                </li>
+                <li>
+                  <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://www.linkedin.com/in/caldunatelipa/">Linkedin</a>
+                </li>
+                <li>
+                  <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="mailto:caldunate.lp@gmail.com">Mail</a>
+                </li>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+      <il>
+        <p class="section-text"  style="text-align: center;">
+        
+          <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+  
+        </p>
+      </il>
+
+      <br><br><br>
+      <p class="section-text"  style="text-align: center;">
+        
+        <b>© 2024 Aldunate Lipa Carolina.</b> Except were noted, this work is licensed under
+          <span class="note"><a href="https://creativecommons.org/licenses/by/4.0/"><b>Creative Commons Attribution 4.0 International License</b></a></span>.
+          
+      </p>
+
+    </div>
+  </footer>
+
+
+  <a href="#top" class="go-top active" data-go-top="" title="Go to Top">
+    <img src="./assets/images/cal.svg" width="52" height="52" loading="lazy" alt="web seo icon">
+  </a>
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
